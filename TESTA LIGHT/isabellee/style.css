@@ -1,0 +1,57 @@
+.love {
+    border: 2px solid;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(30deg, black, pink);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: black;
+}
+
+body {
+    background-image: linear-gradient(50deg, rgb(150, 146, 146), pink);
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: black;
+    position: relative;
+    top: 35%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: 35px;
+}
+
+form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness (40%);
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    color: black;
+    background: rgb(143, 126, 158);
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-dia-dos-namorados-com-design-de-coracoes-em-cascata_1048-17705.jpg?size=338&ext=jpg&ga=GA1.1.672697106.1718064000&semt=ais_user);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
